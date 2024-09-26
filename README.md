@@ -8,6 +8,7 @@ Este es un proyecto de tienda online para mascotas. La platadorma ofrece a los c
 - Busqueda avanzada.
 - Informacion sobre productos.
 - Carrito de compras y procesos de pago seguro.
+- Se agrega validacion de formulario
 
 # Tegnologias utilizadas 
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pet Shop Tika  </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/logotikaicon.png">
+</head>
+
+<body>
+    <header>
+        <h1> PetShop Tika</h1>
+        <img src="imagenes/logo_tika.png" alt="Logo Tika" width="300" height="300">
+    </header>
+    
+    <nav>
+        <b>Bienvenidos </b>
+        
+        <ul>
+            <li> 
+                <a href="index.html"> Inicio</a>
+            </li>
+            <li>
+                <a href="productos.html"> Productos </a>
+            </li>
+            <li>
+                <a href="?"> Reseñas </a>
+            </li>
+            <li>
+                <a href="@"> Contacto </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <section>
+            <h2> Alimento Balanceado de gatos </h2>
+            <p> Bolsa Purina Cat Chow Adulto </p>
+            <img src="imagenes/bolsa_catchow.jpg" alt="Bolsa Cat Chow Adulto" width="300" height="300">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/Ne0Qyej7ylM"  title="Nuevo Purina Cat Chow" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+        </section>
+    
+        <section>
+            <h2> Alimento Balanceado de perros </h2>
+            <p>Bolsa Purina Dog Chow Adulto</p>
+            <img src="imagenes/bolsa_dogchow.jpg" alt="Bolsa Dog Chow Adulto" width="300" height="300">
+        </section>
+        
+        
+        <h2> ¿Queres obtener más información?</h2>
+        <form action="https://formsubmit.co/ayelen.lunaf@gmail.com" method="post">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <div>          
+                    <label for="nombre">Nombre: </label>
+                    <input name="nombre" id="nombre" type="text" required> <br></br>
+                </div>
+                <div>
+                    <label for="email">Email: </label> 
+                    <input name="Email" id="email" type="email" required placeholder="example@gmail.com" > <br></br>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="mensaje" name="mensaje" cols="30" rows="5" 
+                    placeholder="Escribe tu mensaje"></textarea> <br></br>
+                </div>
+                <button type="submit" >Enviar</button>
+            </fieldset>
+        </form>
+        
+
+ 
+    </main>
+
+    <footer> 
+        <small> Copyright Petshop Tika - 2024. Todos los derechos reservados</small>
+    </footer>
+</body>
+
+</html>
